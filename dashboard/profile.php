@@ -31,7 +31,7 @@ include_once('./inc/SideMenu.php');
     </div>
     <div class="card-body">
         <form action="./controller/updateInfo.php" id="files" method="POST" enctype="multipart/form-data">
-            <label for="file"><img src="<?= $path . 'uploads/' . $_SESSION['auth']['files'] ?>" class="mb-3" style="width:100px; d-block;cursor:pointer">
+            <label for="file"><img src="<?= '../uploads/' . $_SESSION['auth']['files'] ?>" class="mb-3" style="width:100px; d-block;cursor:pointer">
             </label>
             <input type="file" name="file" id="file" class="my-1 form-control">
             <label for="name" id="name" class="my-3">User Name</label>
@@ -61,5 +61,5 @@ include_once('./inc/SideMenu.php');
 </div>
 
 <?php
-include_once("./inc/Footer.php");
+include_once("./inc/footer.php");
 ?>

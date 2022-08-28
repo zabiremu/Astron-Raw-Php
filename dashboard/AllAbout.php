@@ -51,7 +51,7 @@ $fetch = mysqli_fetch_all($query, 1);
             ?>
                 <tr>
                     <td><?= ++$item ?></td>
-                    <td> <img style="width: 60px;" src="<?= $path . 'uploads/' . $data['img'] ?>" alt=""></td>
+                    <td> <img style="width: 60px;" src="<?='../uploads/' . $data['img'] ?>" alt=""></td>
                     <td><?= $data['title'] ?></td>
                     <td><?= $data['title1'] ?></td>
                     <td>

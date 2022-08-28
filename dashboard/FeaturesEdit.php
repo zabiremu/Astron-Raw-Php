@@ -37,7 +37,7 @@ $fecth = mysqli_fetch_assoc($query);
                 <input type="hidden" name="id" class="form-control" value="<?=$fecth['id']?>">
                 <input type="file" name="img" class="form-control">
                 <input type="text" name="title" placeholder="Features Title" class="my-1 form-control" value="<?=$fecth['subHeading']?>">
-                <input type="text" name="title1" placeholder="Features Title 1" class="my-1 form-control" value="<?=$fecth['subHeading1']?>">
+                <input type="text" name="title1" placeholder="Features Title 2" class="my-1 form-control" value="<?=$fecth['subHeading1']?>">
                 <textarea class="content" name="list"><?=$fecth['list']?></textarea>
                 <input type="text" class="form-control iconpicker" placeholder="Icon Picker" aria-label="Icone Picker" aria-describedby="basic-addon1" name="icon" value="<?=$fecth['icon']?>">
                 <button class="btn btn-primary my-2" name="submit">Submit</button>
@@ -48,5 +48,5 @@ $fecth = mysqli_fetch_assoc($query);
 
 
 <?php
-include_once "./inc/Footer.php"
+include_once "./inc/footer.php"
 ?>

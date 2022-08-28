@@ -26,6 +26,6 @@ include_once('./inc/SideMenu.php');
 </main>
 
 <?php
-include_once("./inc/Footer.php");
+include_once("./inc/footer.php");
 ?>
 

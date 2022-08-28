@@ -52,5 +52,5 @@ $fecth = mysqli_fetch_assoc($query);
 
 
 <?php
-include_once "./inc/Footer.php"
+include_once "./inc/footer.php"
 ?>
